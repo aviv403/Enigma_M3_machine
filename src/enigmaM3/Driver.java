@@ -109,7 +109,7 @@ public class Driver {
 			if(check>0)
 				System.out.println("INPUT ERROR !!!   (try again..)");
 			
-			System.out.println("Please enter in number(1-26) the OFFSET of left rotor  (e.g. : 21)");
+			System.out.println("Please enter Integer number(1-26) the OFFSET of left rotor  (e.g. : 21)");
 			String s  = scanner3.nextLine();
 			try{
 				leftOffset = Integer.valueOf(s);
@@ -130,7 +130,7 @@ public class Driver {
 			if(check>0)
 				System.out.println("INPUT ERROR !!!   (try again..)");
 			
-			System.out.println("Please enter in number(1-26) the OFFSET of middle rotor  (e.g. : 21)");
+			System.out.println("Please enter Integer number(1-26) the OFFSET of middle rotor  (e.g. : 21)");
 			String s  = scanner4.nextLine();
 			try{
 				middleOffset = Integer.valueOf(s);
@@ -151,7 +151,7 @@ public class Driver {
 			if(check>0)
 				System.out.println("INPUT ERROR !!!   (try again..)");
 			
-			System.out.println("Please enter in number(1-26) the OFFSET of right rotor  (e.g. : 21)");
+			System.out.println("Please enter Integer number(1-26) the OFFSET of right rotor  (e.g. : 21)");
 			String s  = scanner5.nextLine();
 			try{
 				rightOffset = Integer.valueOf(s);
@@ -171,7 +171,7 @@ public class Driver {
 			if(check>0)
 				System.out.println("INPUT ERROR !!!   (try again..)");
 			
-			System.out.println("Please enter in number(1-26) the SETTING of left rotor  (e.g. : 21)");
+			System.out.println("Please enter Integer number(1-26) the SETTING of left rotor  (e.g. : 21)");
 			String s  = scanner6.nextLine();
 			try{
 				leftSetting = Integer.valueOf(s);
@@ -191,7 +191,7 @@ public class Driver {
 			if(check>0)
 				System.out.println("INPUT ERROR !!!   (try again..)");
 			
-			System.out.println("Please enter in number(1-26) the SETTING of middle rotor  (e.g. : 21)");
+			System.out.println("Please enter Integer number(1-26) the SETTING of middle rotor  (e.g. : 21)");
 			String s  = scanner7.nextLine();
 			try{
 				middleSetting = Integer.valueOf(s);
@@ -212,7 +212,7 @@ public class Driver {
 			if(check>0)
 				System.out.println("INPUT ERROR !!!   (try again..)");
 			
-			System.out.println("Please enter in number(1-26) the SETTING of right rotor  (e.g. : 21)");
+			System.out.println("Please enter Integer number(1-26) the SETTING of right rotor  (e.g. : 21)");
 			String s  = scanner8.nextLine();
 			try{
 				rightSetting = Integer.valueOf(s);
